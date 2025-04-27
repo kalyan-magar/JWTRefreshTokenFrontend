@@ -11,9 +11,9 @@ const RequireAuth = ({ allowedRoles }) => {
         
     },[auth])
         
-        if (auth.roles === undefined) {
-            return <div>Loading...</div>; // Or null, or a spinner
-        }
+        // if (auth.roles === undefined) {
+        //     return <div>Loading...</div>; 
+        // }
     
 
 
